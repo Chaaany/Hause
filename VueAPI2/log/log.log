@@ -1,0 +1,503 @@
+[2m2022-05-26 09:22:54.436[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 09:22:54.443[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 09:22:54.444[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 09:22:54.519[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2022-05-26 09:22:54.519[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2022-05-26 09:22:57.482[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 09:22:57.954[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 3434 ms
+[2m2022-05-26 09:22:59.146[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 09:22:59.452[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 09:22:59.869[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 5.941 seconds (JVM running for 8.227)
+[2m2022-05-26 09:25:19.452[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-26 09:25:19.455[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[2m2022-05-26 09:25:20.270[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTI0NzIwMjE5LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjgzMjAsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.MFrGeyl8QyqfzusCMuhIg7_yFw78gJ4Dmy61yjFnqiU
+[2m2022-05-26 09:25:20.391[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:25:42.704[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:25:42.707[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:25:43.736[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:25:43.736[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:25:44.483[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:25:44.483[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:26:19.934[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:26:19.935[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:26:51.300[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:26:51.300[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:27:43.635[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:30:10.124[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:30:10.125[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:30:59.940[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:32:54.463[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:32:54.463[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:41:03.322[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:43:57.362[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:43:57.370[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:45:08.978[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:45:08.980[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:48:32.946[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:48:32.955[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:53:49.085[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:53:49.087[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:55:38.594[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:55:38.598[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:55:43.087[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:55:43.094[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:56:54.110[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:56:54.110[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:56:55.490[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:56:55.491[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:57:19.875[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:57:19.875[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:57:20.879[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:57:20.881[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:57:36.293[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:57:36.294[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:57:37.744[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:57:37.744[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:58:05.539[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:58:05.541[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:58:06.532[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:58:06.532[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:58:09.570[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:58:09.572[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:58:10.319[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:58:10.324[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:58:11.095[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:58:11.096[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:58:12.251[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:58:12.253[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 09:59:22.673[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:59:24.916[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 09:59:24.917[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 09:59:26.523[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:59:26.526[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:00:17.781[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 10:00:17.791[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 10:00:19.770[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:00:19.772[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:06:30.316[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:06:30.317[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:06:30.440[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:06:30.446[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:06:40.410[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 10:06:40.410[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 10:06:41.757[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:06:41.759[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:07:20.784[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:07:20.787[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:07:47.263[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 10:07:47.270[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 10:07:48.961[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:07:48.961[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:09:10.452[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:09:10.453[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:23:43.557[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 10:23:43.561[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 10:23:45.045[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:23:45.047[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:31:21.536[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:31:21.540[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:31:59.455[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:31:59.458[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:31:59.554[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:31:59.554[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:32:09.098[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:32:09.100[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:32:50.640[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:32:50.642[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:36:24.417[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:36:24.419[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:36:24.448[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:36:24.449[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:37:10.676[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:37:10.686[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:44:58.373[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:44:58.375[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:52:14.883[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:52:14.885[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:54:13.638[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:54:13.641[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:54:33.349[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:54:33.351[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:54:47.672[0;39m [33m WARN[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+[2m2022-05-26 10:54:49.384[0;39m [33m WARN[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+[2m2022-05-26 10:57:36.717[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 10:57:36.719[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 10:57:47.917[0;39m [33m WARN[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "ssafy"]
+[2m2022-05-26 10:57:49.263[0;39m [33m WARN[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "ssafy"]
+[2m2022-05-26 10:59:45.761[0;39m [33m WARN[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+[2m2022-05-26 10:59:54.409[0;39m [33m WARN[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+[2m2022-05-26 11:01:10.102[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m deleteComment - 호출
+[2m2022-05-26 11:01:12.848[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:01:12.855[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:08:47.919[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:08:47.923[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:09:18.306[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:09:18.307[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:09:23.098[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m writeComment - 호출
+[2m2022-05-26 11:09:27.486[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:09:27.491[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:10:07.057[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:10:07.058[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:10:12.742[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m writeComment - 호출
+[2m2022-05-26 11:10:17.615[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:10:17.617[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:10:23.292[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m deleteComment - 호출
+[2m2022-05-26 11:10:25.479[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:10:25.481[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:10:39.290[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:10:39.291[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:10:49.800[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m writeComment - 호출
+[2m2022-05-26 11:10:52.233[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:10:52.236[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:14:54.374[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:14:54.376[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:16:29.074[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m writeComment - 호출
+[2m2022-05-26 11:16:34.244[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:16:34.250[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:16:40.646[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m deleteComment - 호출
+[2m2022-05-26 11:16:44.001[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:16:44.003[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:17:44.063[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 11:17:44.063[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 11:17:47.064[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:17:47.067[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 11:17:48.541[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:18:50.027[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 11:18:50.028[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 11:18:51.959[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 11:18:51.961[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:12:54.370[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 13:12:54.373[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 13:12:57.006[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:12:57.007[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:13:02.766[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:13:02.768[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:13:18.811[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:13:18.814[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:16:41.624[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:16:41.628[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:22:16.970[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:22:16.973[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:26:20.253[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:26:20.257[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:29:28.174[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTM5MzY4MTczLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1NDI5NjgsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.htbrwYq55iT-MZj5EvobH4KFumUrRqiOnYiOZkZMlJ0
+[2m2022-05-26 13:29:28.201[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 13:29:35.380[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 13:29:35.389[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 13:29:37.507[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:29:37.510[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:30:41.956[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 13:30:41.956[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 13:30:43.422[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:30:43.424[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:35:50.679[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[       Thread-6][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2022-05-26 13:35:50.680[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[       Thread-6][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2m2022-05-26 13:35:50.681[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4f73fbf8: (connection evicted)
+[2m2022-05-26 13:35:50.683[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@41b41c66: (connection evicted)
+[2m2022-05-26 13:35:50.684[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@458b9088: (connection evicted)
+[2m2022-05-26 13:35:50.685[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@89165d: (connection evicted)
+[2m2022-05-26 13:35:50.686[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5075818f: (connection evicted)
+[2m2022-05-26 13:35:50.687[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@31c3f0cb: (connection evicted)
+[2m2022-05-26 13:35:50.688[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28d539ab: (connection evicted)
+[2m2022-05-26 13:35:50.688[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@60a6e912: (connection evicted)
+[2m2022-05-26 13:35:50.689[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1c237570: (connection evicted)
+[2m2022-05-26 13:35:50.691[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nnection closer][0;39m [36mcom.zaxxer.hikari.pool.PoolBase         [0;39m [2m:[0;39m HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32c89b97: (connection evicted)
+[2m2022-05-26 13:35:50.692[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[       Thread-6][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2m2022-05-26 13:35:50.692[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[       Thread-6][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2022-05-26 13:35:51.163[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 13:35:51.164[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 13:35:51.166[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 13:35:52.837[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 13:35:53.208[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2030 ms
+[2m2022-05-26 13:35:54.619[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 13:35:54.768[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 13:35:55.344[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 4.312 seconds (JVM running for 15183.037)
+[2m2022-05-26 13:35:55.348[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-26 13:35:57.889[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 13:35:57.891[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 13:35:57.892[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 13:35:58.944[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 13:35:59.114[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1214 ms
+[2m2022-05-26 13:35:59.785[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 13:35:59.887[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 13:36:00.239[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 2.409 seconds (JVM running for 15187.933)
+[2m2022-05-26 13:36:00.246[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-26 13:36:06.300[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 13:36:06.300[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 13:36:06.300[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 13:36:07.180[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 13:36:07.314[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1010 ms
+[2m2022-05-26 13:36:07.565[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 13:36:07.754[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 13:36:08.336[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 2.08 seconds (JVM running for 15196.03)
+[2m2022-05-26 13:36:08.349[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-26 13:36:56.145[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 13:36:56.145[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 13:36:56.146[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 13:36:56.766[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 13:36:56.909[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 761 ms
+[2m2022-05-26 13:36:57.134[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 13:36:57.199[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 13:36:57.324[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 1.21 seconds (JVM running for 15245.017)
+[2m2022-05-26 13:36:57.326[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-26 13:37:07.504[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 13:37:07.505[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 13:37:07.505[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 13:37:07.959[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 13:37:08.062[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 555 ms
+[2m2022-05-26 13:37:08.266[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 13:37:08.334[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 13:37:08.442[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 0.971 seconds (JVM running for 15256.135)
+[2m2022-05-26 13:37:08.444[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-26 13:39:49.816[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 13:39:49.817[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 13:39:49.817[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 13:39:50.381[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 13:39:50.483[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 664 ms
+[2m2022-05-26 13:39:50.679[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 13:39:50.747[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 13:39:50.859[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 1.074 seconds (JVM running for 15418.553)
+[2m2022-05-26 13:39:50.861[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-26 13:39:55.201[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-26 13:39:55.203[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-26 13:40:08.201[0;39m [31mERROR[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Ambiguous handler methods mapped for '/vue/qnaboard/comment/1': {public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.detailComment(int), public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.commentList(int) throws java.lang.Exception}] with root cause
+
+java.lang.IllegalStateException: Ambiguous handler methods mapped for '/vue/qnaboard/comment/1': {public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.detailComment(int), public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.commentList(int) throws java.lang.Exception}
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:432)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-05-26 13:40:18.839[0;39m [31mERROR[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Ambiguous handler methods mapped for '/vue/qnaboard/comment/2': {public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.detailComment(int), public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.commentList(int) throws java.lang.Exception}] with root cause
+
+java.lang.IllegalStateException: Ambiguous handler methods mapped for '/vue/qnaboard/comment/2': {public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.detailComment(int), public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.commentList(int) throws java.lang.Exception}
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:432)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-05-26 13:41:00.323[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 13:41:00.323[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 13:41:00.324[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 13:41:00.881[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 13:41:00.988[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 662 ms
+[2m2022-05-26 13:41:01.214[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 13:41:01.283[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 13:41:01.397[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 1.104 seconds (JVM running for 15489.09)
+[2m2022-05-26 13:41:01.399[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-26 13:41:15.917[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-26 13:41:15.918[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-26 13:41:15.920[0;39m [31mERROR[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Ambiguous handler methods mapped for '/vue/qnaboard/comment/2': {public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.detailComment(int), public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.commentList(int) throws java.lang.Exception}] with root cause
+
+java.lang.IllegalStateException: Ambiguous handler methods mapped for '/vue/qnaboard/comment/2': {public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.detailComment(int), public org.springframework.http.ResponseEntity com.ssafy.vue.controller.QnaBoardController.commentList(int) throws java.lang.Exception}
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:432)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-05-26 13:42:54.728[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 13:42:54.728[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 13:42:54.728[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 13:42:55.237[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 13:42:55.327[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 597 ms
+[2m2022-05-26 13:42:55.495[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 13:42:55.552[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 13:42:55.659[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 0.96 seconds (JVM running for 15603.351)
+[2m2022-05-26 13:42:55.660[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-26 13:43:01.154[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-26 13:43:01.156[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-26 13:43:01.159[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:43:50.869[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 13:47:11.977[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Starting VueApi2Application using Java 1.8.0_312 on DESKTOP-1T7N3GV with PID 20980 (D:\ssafy\springws\VueAPI2\target\classes started by abcxj in D:\ssafy\springws\VueAPI2)
+[2m2022-05-26 13:47:11.977[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Running with Spring Boot v2.6.7, Spring v5.3.19
+[2m2022-05-26 13:47:11.977[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-26 13:47:12.545[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 13:47:12.659[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 680 ms
+[2m2022-05-26 13:47:12.876[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 13:47:12.947[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 13:47:13.055[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.vue.VueApi2Application        [0;39m [2m:[0;39m Started VueApi2Application in 1.109 seconds (JVM running for 15860.748)
+[2m2022-05-26 13:47:13.057[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-26 13:47:13.729[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-26 13:47:13.731[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-26 13:47:13.733[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 13:53:08.297[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 13:53:33.483[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 13:53:33.492[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 13:53:34.243[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 13:53:34.244[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 13:53:35.151[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:53:35.154[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:53:36.936[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 13:55:18.044[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 13:55:33.682[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 13:56:38.774[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 13:56:38.775[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 13:56:39.285[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 13:56:39.299[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 13:56:39.845[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 13:56:39.847[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 13:56:41.616[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 13:56:41.617[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 13:56:42.605[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 14:00:23.414[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 14:00:23.420[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 14:00:25.141[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 14:00:25.143[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 14:00:27.789[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:00:36.878[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:00:40.768[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:00:44.478[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:04:21.131[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:04:21.229[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:06:58.214[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:07:04.451[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m updateComment - 호출
+[2m2022-05-26 14:07:05.529[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 14:07:05.544[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 14:08:32.972[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:08:52.702[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m updateComment - 호출
+[2m2022-05-26 14:08:53.796[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 14:08:53.797[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 14:09:46.116[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:09:50.335[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m updateComment - 호출
+[2m2022-05-26 14:09:51.361[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 14:09:51.362[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 14:09:55.743[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m writeComment - 호출
+[2m2022-05-26 14:09:57.866[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 14:09:57.867[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 14:10:25.217[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailComment - 호출
+[2m2022-05-26 14:10:28.727[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m updateComment - 호출
+[2m2022-05-26 14:10:29.727[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 14:10:29.732[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 14:11:32.431[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m retrieveBoard - 호출
+[2m2022-05-26 14:11:32.435[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m countBoard - 호출
+[2m2022-05-26 14:11:35.326[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m commentList - 호출
+[2m2022-05-26 14:11:35.326[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.QnaBoardController   [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 14:12:08.305[0;39m [32mDEBUG[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTQxOTI4MzA0LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1NDU1MjgsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.0xN1QCJteua2ojU26GUcApTDxH-Ji0kI_qLSsXkLgQ8
+[2m2022-05-26 14:12:08.334[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 14:16:13.450[0;39m [32m INFO[0;39m [35m20980[0;39m [2m---[0;39m [2m[(330)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.

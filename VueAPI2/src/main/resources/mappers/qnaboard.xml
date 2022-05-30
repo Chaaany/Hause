@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.vue.mapper.QnaBoardMapper">
+
+	<!-- 게시글 전체 조회 -->
+	<select id="selectBoard" parameterType="int" resultType="qnaboard">
+		select articleno, userid, subject, content, regtime
+		from qnaboard 
+		order by articleno desc
+		limit #{offset}, 10
+	</select>
+	
+	<!-- 게시글 상세 조회 -->
+	<select id="selectBoardByNo" resultType="qnaboard">
+		select articleno, subject, userid, content, regtime
+		from qnaboard 
+		where articleno = #{articleno}
+	</select>
+
+	<!-- 게시글 등록 -->
+	<insert id="insertBoard" parameterType="qnaboard">
+		insert into qnaboard(
+			subject, userid, content
+		) values (
+			#{subject}, #{userid}, #{content}
+		)
+	</insert>
+	
+	<!-- 게시글 수정 -->
+	<update id="updateBoard" parameterType="qnaboard">
+		update qnaboard 
+		   set subject = #{subject}, 
+		   	   userid = #{userid}, 
+		   	   content = #{content},
+		   	   regtime = now()
+		 where articleno = #{articleno}
+	</update>
+
+	<!-- 게시글 삭제 -->
+	<delete id="deleteBoard" parameterType="int">
+		delete 
+		from qnaboard 
+		where articleno = #{articleno}
+	</delete>
+	
+	<!-- userid로 게시글 조회 -->
+	<select id="searchByUserid" parameterType="String" resultType="qnaboard">
+		select articleno, userid, subject, content, regtime
+		from qnaboard
+		where userid = #{value}
+		order by articleno desc
+	</select>
+	
+	<!-- articleno로 게시글 조회 -->
+	<select id="searchByArticleno" parameterType="String" resultType="qnaboard">
+		select articleno, userid, subject, content, regtime
+		from qnaboard
+		where articleno = #{value}
+	</select>
+	
+	<!-- 제목으로 게시글 조회 -->
+	<select id="searchBySubject" parameterType="String" resultType="qnaboard">
+		select articleno, userid, subject, content, regtime
+		from qnaboard
+		where subject like concat('%', #{value}, '%')
+		order by articleno desc
+	</select>
+	
+	<!-- 게시글 개수 조회 -->
+	<select id="countBoard" resultType="int">
+		select count(*) from qnaboard
+	</select>
+	
+	<!-- 댓글 조회 -->
+	<select id="commentList" parameterType="int" resultType="commentdto">
+		select c.commentno, c.articleno, c.userid, m.username, c.content, c.regtime
+		from comment c join ssafy_member m
+		using (userid)
+		where articleno = #{articleno}
+		order by commentno
+	</select>
+	
+	<!-- 댓글 작성 -->
+	<insert id="writeComment" parameterType="commentdto">
+		insert into comment(
+			articleno, userid, content
+		) values (
+			#{articleno}, #{userid}, #{content}
+		)
+	</insert>
+	
+	<!-- 댓글 수정 -->
+	<update id="updateComment" parameterType="commentdto">
+		update comment 
+		   set content = #{content},
+		   	   regtime = now()
+		 where commentno = #{commentno}
+	</update>
+	
+	<!-- 댓글 삭제 -->
+	<delete id="deleteComment" parameterType="int">
+		delete 
+		from comment 
+		where commentno = #{commentno}
+	</delete>
+	
+	<!-- 댓글 상세 조회 -->
+	<select id="selectCommentByNo" resultType="commentdto">
+		select commentno, articleno, userid, content
+		from comment
+		where commentno = #{commentno}
+	</select>
+
+</mapper>

@@ -1,0 +1,44 @@
+import { apiInstance } from "./index.js";
+
+const api = apiInstance();
+
+function listArticle(page, success, fail) {
+  api.get(`/board/?pg=${page}`).then(success).catch(fail);
+}
+
+function writeArticle(article, success, fail) {
+  api.post(`/board`, JSON.stringify(article)).then(success).catch(fail);
+}
+
+function getArticle(articleno, success, fail) {
+  api.get(`/board/${articleno}`).then(success).catch(fail);
+}
+
+function modifyArticle(article, success, fail) {
+  api
+    .put(`/board/${article.articleno}`, JSON.stringify(article))
+    .then(success)
+    .catch(fail);
+}
+
+function deleteArticle(articleno, success, fail) {
+  api.delete(`/board/${articleno}`).then(success).catch(fail);
+}
+
+function countArticle(success, fail) {
+  api.get(`/board/count`).then(success).catch(fail);
+}
+
+function updateHit(articleno, success, fail) {
+  api.put(`/board/hit/${articleno}`).then(success).catch(fail);
+}
+
+export {
+  listArticle,
+  writeArticle,
+  getArticle,
+  modifyArticle,
+  deleteArticle,
+  countArticle,
+  updateHit,
+};

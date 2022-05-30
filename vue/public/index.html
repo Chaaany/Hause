@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap" rel="stylesheet">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- 카카오 맵 등록 -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=890d74f99dc924129ff093f4d84a3365"></script> 
+    <!-- 마커 클러스터링, 장소검색/주소-좌표 변환 라이브러리, 마커, 그래픽스 객체 그리기모드 지원 drawing 라이브러리 -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=890d74f99dc924129ff093f4d84a3365&libraries=services,clusterer,drawing"></script>
+
+  </head>
+  <style>
+    * {
+      font-family: 'Do Hyeon', sans-serif;
+      font-size: 101%;
+    }
+
+
+  </style>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app" style="padding:0;"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
