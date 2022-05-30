@@ -1,7 +1,7 @@
 # Hause
 SSAFY 7기 HappyHouse
 
-![image](https://user-images.githubusercontent.com/34885297/170990826-e0f5f9cf-da7e-44ab-b920-111df68df21a.png)
+![image](https://user-images.githubusercontent.com/34885297/170990826-e0f5f9cf-da7e-44ab-b920-111df68df21a.png){: width="100%" height="100%"}
 ![image](https://user-images.githubusercontent.com/34885297/170991121-66c9eba4-4659-4df9-bb0e-fd5c2a36a8e9.png)
 ![image](https://user-images.githubusercontent.com/34885297/170991133-ac6ff131-48c2-4d7a-b57c-c33e70611708.png)
 ![image](https://user-images.githubusercontent.com/34885297/170991145-3820db4b-dacf-40cf-81b8-463b04de75b5.png)
